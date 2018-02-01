@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.dennis.helloandroid.MyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="?android:textAppearanceLargeInverse"
+        android:layout_centerInParent="true"
+        android:padding="30dp"
+        android:layout_margin="30dp"
+        android:background="#000000"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_above="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:onClick="topClick"
+        android:text="Button"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:onClick="bottomClick"
+        android:text="Button 2"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
