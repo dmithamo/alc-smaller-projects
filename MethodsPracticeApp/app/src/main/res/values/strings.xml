@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Methods Practice App</string>
+    <string name="intr0_message">Verisimilitude is a real word.</string>
+    <string name="intro_message">\"Verisimilitude is overrated\"</string>
+</resources>
